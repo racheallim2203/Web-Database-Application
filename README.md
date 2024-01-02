@@ -7,3 +7,5 @@ Username and Password to access system:
 Username: fit2104@gmail.com
 Password: fit2104
 
+bin/cake server to run code
+
