@@ -1,0 +1,338 @@
+
+.nav-container{
+    background-color: #000500;
+}
+
+.logo-class{
+    max-width: 20%; /* Set the maximum width */
+    max-height: 20%; /* /* Set the maximum height */
+    margin-left: 80px;
+}
+.footer-class{
+    max-width: 100%;
+    padding: 10px;
+}
+
+.button-group{
+    margin: 10px;
+}
+.form-control-add{
+    background-color: #1a1d20;
+}
+.top-nav-title {
+    text-align: center; /* Center the content horizontally */
+    padding: 10px; /* Add some padding for spacing */
+    border-color: black; /* Add a border with your desired color */
+}
+
+.table .custom-header {
+    background-color: #92817A;
+    color: #fffcf2;
+    border-width: 1.5px;
+
+}
+
+.search-form{
+    background-color: #92817A;
+    padding:20px;
+    border-color: #362417;
+    border-width: 5px;
+}
+.container-filter {
+    display: flex;
+}
+
+.border-filter{
+    background-color: #F8EBDF;
+    padding:20px;
+}
+.form-group{
+    margin-left:29px;
+    display: contents;
+}
+
+.left {
+    float: left;
+    width: 45%; /* Adjust the width as needed */
+    margin-right: 5%; /* Add some margin between left and right sections */
+}
+
+.left-mg{
+    float: left;
+    width: 45%; /* Adjust the width as needed */
+    margin-right: 5%; /* Add some margin between left and right sections */
+    margin-top: -70px;
+}
+
+.right-button{
+    margin-top: 103px;
+    margin-left: 50px;
+}
+
+.custom-placeholder::placeholder {
+    color: #babbbc;
+}
+.right {
+    float: left;
+    width: 45%; /* Adjust the width as needed */
+}
+
+.logout-link{
+    float: right;
+}
+.top-nav-links,
+.side-nav,
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    color: var(--color-headings);
+}
+
+.side-nav-item {
+    display: block;
+    padding: 0.5rem 0;
+}
+
+.column-80 {
+    float: right;
+    width: 80%; /* Optional: Adjust the width as needed */
+}
+
+/* Clear the float to prevent layout issues */
+.projects.view.content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button, button, input[type='button'], input[type='reset'], input[type='submit'] {
+    background-color: #362417;
+    border-color: #C2AE9D;
+}
+
+.thead{
+    margin:10px;
+    background-color: #ff96b3;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    background: var(--color-main-bg);
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    color: var(--color-headings);
+}
+
+
+
+.side-nav a,
+.top-nav-links a,
+th a,
+.actions a {
+    color: white;
+}
+
+.side-nav a:hover,
+.side-nav a:focus,
+.actions a:hover,
+.actions a:focus {
+    color: var(--color-links-active);
+}
+
+/* Utility */
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Main */
+.content {
+    padding: 2rem;
+    background: var(--color-white);
+    border-radius: 0.4rem;
+    /* Thanks Stripe */
+    box-shadow: 0 7px 14px 0 rgba(60, 66, 87, 0.1),
+    0 3px 6px 0 rgba(0, 0, 0, 0.07);
+}
+
+.content form {
+    margin: 0;
+}
+.actions a {
+    font-weight: bolder;
+    padding: 0 0.4rem;
+    text-decoration: none;
+    color: white;
+}
+
+/* View action */
+.view.content .text {
+    margin-top: 1.2rem;
+}
+.related {
+    margin-top: 2rem;
+}
+
+/* Flash messages */
+.message {
+    padding: .5rem 1rem;
+    background: var(--color-message-info-bg);
+    color: var(--color-message-info-text);
+    border-color: var(--color-message-info-border);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-size: 15px;
+}
+.message.hidden {
+    display: none;
+}
+.message.success {
+    background-color: greenyellow;
+    color: var(--color-message-success-text);
+    border-color: var(--color-message-success-border);;
+}
+.message.warning {
+    background: var(--color-message-warning-bg);
+    color: var(--color-message-warning-text);
+    border-color: var(--color-message-warning-border);
+}
+.message.error {
+    background: #ef5753;
+    color: var(--color-message-error-text);
+    border-color: var(--color-message-error-border);
+    color:white;
+}
+
+/* Forms */
+.input.radio,
+.input.checkbox,
+.input.multicheckbox {
+    margin-bottom: 2.0rem;
+}
+.input.radio input,
+.input.checkbox input,
+.input.multicheckbox input {
+    margin: 0;
+}
+.input.radio label,
+.input.checkbox label,
+.input.multicheckbox label {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.input.radio label > input,
+.input.checkbox label > input,
+.input.multicheckbox label > input {
+    margin-right: 1.0rem;
+}
+input[type='color'] {
+    max-width: 4rem;
+    padding: 0.3rem .5rem 0.3rem;
+}
+
+/* Paginator */
+.paginator {
+    text-align: right;
+}
+.paginator p {
+    margin-bottom: 0;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0 0 1rem 0;
+    padding: 0;
+}
+.pagination li {
+    display: inline-block;
+    margin: 0.25em;
+    text-align: center;
+}
+.pagination a {
+    color: var(--color-cakephp-blue);
+    display: inline-block;
+    font-size: 1.25rem;
+    line-height: 3rem;
+    min-width: 3rem;
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+    transition: background .3s,color .3s;
+}
+.pagination li.active a,
+.pagination a:hover {
+    text-decoration: underline;
+}
+.pagination .disabled a {
+    cursor: not-allowed;
+    color: var(--color-lightgray);
+    text-decoration: none;
+}
+.first a,
+.prev a,
+.next a,
+.last a {
+    padding: 0 .75rem;
+}
+.disabled a:hover {
+    background: initial;
+    color: initial;
+}
+.asc:after {
+    content: " \2193";
+}
+.desc:after {
+    content: " \2191";
+}
+
+/* Error in non debug mode */
+.error-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+@media screen and (max-width: 640px) {
+    /* Fix milligram not having a responsive column system */
+    .row .column[class*='column-'] {
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+    .top-nav {
+        margin: 0 auto;
+    }
+    .side-nav {
+        margin-bottom: 1rem;
+    }
+    .heading {
+        margin-bottom: 1rem;
+    }
+    .side-nav-item {
+        display: inline;
+        margin: 0 1.5rem 0 0;
+    }
+    .asc:after {
+        content: " \2192";
+    }
+    .desc:after {
+        content: " \2190";
+    }
+
+}
